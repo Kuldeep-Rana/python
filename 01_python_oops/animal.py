@@ -1,14 +1,17 @@
 class Animal:
-    type, name
-
-    def __intit__(self, type, name):
+    
+    def __init__(self, type, name):
         self.type = type
         self.name = name
 
-    def getType():
-        return type
+    def getType(self):
+        return self.type
 
-    def getName():
-        return name
+    def getName(self):
+        return self.name
     
-    
+
+a = Animal("PET","Dog")
+
+print(a.getName())
+print(a.getType())       
