@@ -11,7 +11,14 @@ class Animal:
         return self.name
     
 
-a = Animal("PET","Dog")
+# a = Animal("PET","Dog")
 
-print(a.getName())
-print(a.getType())       
+# print(a.getName())
+# print(a.getType())       
+
+# a.type = "WILD"
+# a.name = "Lion"
+
+# print(a.getName())
+# print(a.getType())       
+
